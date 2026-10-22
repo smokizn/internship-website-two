@@ -60,7 +60,7 @@ pipeline {
                             "$SITE_NAME" "$(git rev-parse HEAD)" "$BUILD_NUMBER" > build-info.txt
                         # Only the site files are shipped; the deploy endpoint chooses the target directory.
                         tar --owner=0 --group=0 -czf - index.html style.css build-info.txt \
-                          | ssh -i "$DEPLOY_KEY" -p "$DEPLOY_PORT" \
+                          | ssh -T -i "$DEPLOY_KEY" -p "$DEPLOY_PORT" \
                                 -o IdentitiesOnly=yes -o BatchMode=yes \
                                 -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$KNOWN_HOSTS" \
                                 "$DEPLOY_USER@$DEPLOY_HOST"
