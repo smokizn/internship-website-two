@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fieldnote Academy — Internship Training Portal</title>
+  <meta name="description" content="Fieldnote Academy is a fictional internship training portal offering hands-on tracks in DevOps, web development, data and design.">
+  <meta name="theme-color" content="#f6f1e7">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a href="#home" class="logo" aria-label="Fieldnote Academy home">
+        <span class="logo-badge" aria-hidden="true">F</span>
+        <span class="logo-text">Fieldnote <span>Academy</span></span>
+      </a>
+      <input type="checkbox" id="menu" class="menu-toggle" aria-label="Toggle menu">
+      <label for="menu" class="menu-button" aria-hidden="true">Menu</label>
+      <nav class="menu" aria-label="Main">
+        <a href="#tracks">Tracks</a>
+        <a href="#program">Program</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#faq">FAQ</a>
+        <a href="#apply" class="menu-apply">Apply now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker"><span class="dot" aria-hidden="true"></span> Applications open · Winter cohort</p>
+          <h1>Learn by shipping real work, not just watching videos.</h1>
+          <p class="hero-lead">A structured, mentor-guided internship program for students who want practical experience in modern software and infrastructure.</p>
+          <div class="hero-buttons">
+            <a href="#apply" class="button button-solid">Start your application</a>
+            <a href="#tracks" class="button button-line">Browse tracks</a>
+          </div>
+        </div>
+        <aside class="cohort-card" aria-label="Cohort summary">
+          <p class="cohort-label">Next cohort</p>
+          <p class="cohort-title">Winter Internship Program</p>
+          <ul class="cohort-facts">
+            <li><span>Duration</span><strong>12 weeks</strong></li>
+            <li><span>Format</span><strong>Hybrid</strong></li>
+            <li><span>Commitment</span><strong>20 hrs / week</strong></li>
+            <li><span>Tracks</span><strong>6 options</strong></li>
+          </ul>
+          <p class="cohort-note">Every intern finishes with a portfolio project reviewed by a mentor.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="tracks" class="block">
+      <div class="wrap">
+        <header class="block-head">
+          <p class="kicker">Training tracks</p>
+          <h2>Choose the path that fits your goals.</h2>
+          <p>Each track blends guided lessons, weekly labs and a capstone project.</p>
+        </header>
+        <div class="tracks">
+          <article class="track">
+            <div class="track-top"><span class="tag tag-green">Beginner friendly</span><span class="weeks">12 wks</span></div>
+            <h3>DevOps &amp; Cloud Foundations</h3>
+            <p>Linux, Git, containers, CI/CD pipelines and web server deployment on real machines.</p>
+            <ul class="track-points"><li>Jenkins pipelines</li><li>Docker &amp; Apache</li><li>Shell scripting</li></ul>
+          </article>
+          <article class="track">
+            <div class="track-top"><span class="tag tag-green">Beginner friendly</span><span class="weeks">12 wks</span></div>
+            <h3>Frontend Web Development</h3>
+            <p>Semantic HTML, modern CSS layouts, accessibility and responsive design from scratch.</p>
+            <ul class="track-points"><li>Responsive layouts</li><li>Accessibility</li><li>Performance basics</li></ul>
+          </article>
+          <article class="track">
+            <div class="track-top"><span class="tag tag-plum">Intermediate</span><span class="weeks">10 wks</span></div>
+            <h3>Backend &amp; APIs</h3>
+            <p>Design REST APIs, work with databases and write services that are tested and observable.</p>
+            <ul class="track-points"><li>HTTP &amp; REST</li><li>SQL databases</li><li>Automated testing</li></ul>
+          </article>
+          <article class="track">
+            <div class="track-top"><span class="tag tag-plum">Intermediate</span><span class="weeks">10 wks</span></div>
+            <h3>Data Analysis</h3>
+            <p>Clean, explore and visualise datasets, then present findings that support real decisions.</p>
+            <ul class="track-points"><li>Python notebooks</li><li>Data cleaning</li><li>Visual storytelling</li></ul>
+          </article>
+          <article class="track">
+            <div class="track-top"><span class="tag tag-green">Beginner friendly</span><span class="weeks">8 wks</span></div>
+            <h3>UI/UX Design</h3>
+            <p>User research, wireframes, design systems and usability testing for digital products.</p>
+            <ul class="track-points"><li>User interviews</li><li>Prototyping</li><li>Design systems</li></ul>
+          </article>
+          <article class="track">
+            <div class="track-top"><span class="tag tag-ink">Advanced</span><span class="weeks">12 wks</span></div>
+            <h3>Security Operations</h3>
+            <p>Hardening, monitoring and incident response fundamentals in a safe lab environment.</p>
+            <ul class="track-points"><li>System hardening</li><li>Log analysis</li><li>Incident drills</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="program" class="block block-tinted">
+      <div class="wrap program-grid">
+        <div>
+          <header class="block-head">
+            <p class="kicker">Program details</p>
+            <h2>Twelve weeks, four clear phases.</h2>
+          </header>
+          <ol class="timeline">
+            <li><span class="phase">Weeks 1–2</span><h3>Orientation &amp; setup</h3><p>Tooling, workflows and a first small task merged into a shared repository.</p></li>
+            <li><span class="phase">Weeks 3–6</span><h3>Guided labs</h3><p>Weekly hands-on labs with mentor code reviews and written feedback.</p></li>
+            <li><span class="phase">Weeks 7–10</span><h3>Capstone build</h3><p>Plan and build an independent project with checkpoints every week.</p></li>
+            <li><span class="phase">Weeks 11–12</span><h3>Demo &amp; review</h3><p>Present your work, document it and receive a final assessment.</p></li>
+          </ol>
+        </div>
+        <div class="details-card">
+          <h3>At a glance</h3>
+          <table class="details">
+            <caption class="sr-only">Program details</caption>
+            <tbody>
+              <tr><th scope="row">Program length</th><td>8–12 weeks, depending on track</td></tr>
+              <tr><th scope="row">Weekly hours</th><td>About 20 hours</td></tr>
+              <tr><th scope="row">Format</th><td>Hybrid: online lessons, in-person lab days</td></tr>
+              <tr><th scope="row">Mentoring</th><td>Weekly 1:1 and group reviews</td></tr>
+              <tr><th scope="row">Eligibility</th><td>Current students and recent graduates</td></tr>
+              <tr><th scope="row">Completion</th><td>Capstone project and certificate of completion</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="block">
+      <div class="wrap">
+        <header class="block-head">
+          <p class="kicker">Benefits &amp; skills</p>
+          <h2>Walk away with more than a certificate.</h2>
+        </header>
+        <div class="benefits-grid">
+          <ul class="benefits">
+            <li><span class="benefit-icon" aria-hidden="true">✎</span><div><h3>Portfolio-ready project</h3><p>A finished, documented project you can show to future employers.</p></div></li>
+            <li><span class="benefit-icon" aria-hidden="true">☺</span><div><h3>Personal mentor</h3><p>Regular feedback from a practitioner who reviews your work line by line.</p></div></li>
+            <li><span class="benefit-icon" aria-hidden="true">⚑</span><div><h3>Real workflows</h3><p>Pull requests, code review, pipelines and issue tracking from week one.</p></div></li>
+            <li><span class="benefit-icon" aria-hidden="true">✓</span><div><h3>Career preparation</h3><p>CV review, mock interviews and guidance on presenting your skills.</p></div></li>
+          </ul>
+          <div class="skills">
+            <h3>Skills you will practise</h3>
+            <ul class="chips">
+              <li>Git &amp; GitHub</li><li>Linux command line</li><li>Docker</li><li>Jenkins</li><li>Apache HTTPD</li>
+              <li>HTML &amp; CSS</li><li>REST APIs</li><li>SQL</li><li>Python</li><li>Testing</li>
+              <li>Technical writing</li><li>Teamwork</li><li>Problem solving</li><li>Presenting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="block block-tinted">
+      <div class="wrap faq-wrap">
+        <header class="block-head">
+          <p class="kicker">FAQ</p>
+          <h2>Questions, answered.</h2>
+        </header>
+        <div class="faq">
+          <details>
+            <summary>Do I need prior experience?</summary>
+            <p>No. Beginner-friendly tracks start from the fundamentals. Intermediate and advanced tracks list their prerequisites on the application form.</p>
+          </details>
+          <details>
+            <summary>Can I study while working part time?</summary>
+            <p>Yes. The program is designed around roughly 20 hours per week, and most lessons are available online.</p>
+          </details>
+          <details>
+            <summary>What do I need to bring?</summary>
+            <p>A laptop that can run a modern browser and a terminal. Lab environments are provided for heavier workloads.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="apply" class="block apply">
+      <div class="wrap apply-card">
+        <div class="apply-copy">
+          <p class="kicker kicker-light">Apply</p>
+          <h2>Ready to start your internship?</h2>
+          <p>Send a short introduction with your preferred track, your availability and a link to any previous work. We review every application personally.</p>
+          <a href="mailto:admissions@fieldnote.example?subject=Internship%20application" class="button button-light">Email admissions</a>
+        </div>
+        <ol class="apply-steps">
+          <li><strong>Submit</strong> your introduction and preferred track.</li>
+          <li><strong>Chat</strong> with a mentor in a 20-minute call.</li>
+          <li><strong>Complete</strong> a small take-home task.</li>
+          <li><strong>Join</strong> the cohort and meet your team.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a href="#home" class="logo logo-footer">
+          <span class="logo-badge" aria-hidden="true">F</span>
+          <span class="logo-text">Fieldnote <span>Academy</span></span>
+        </a>
+        <p>Fieldnote Academy is a fictional training provider created for an internship DevOps project.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#tracks">Tracks</a>
+        <a href="#program">Program</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#apply">Apply</a>
+      </nav>
+      <p class="footer-meta">Website Two · Deployed with Jenkins &amp; Apache</p>
+    </div>
+  </footer>
+</body>
+</html>
